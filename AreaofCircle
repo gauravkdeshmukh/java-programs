@@ -1,0 +1,8 @@
+public class Circle {
+  public static double area(double radius){
+    if(radius <= 0D)
+      throw new IllegalArgumentException("Radius should be > 0");
+    else
+      return ((Math.PI*radius*radius)*100.00)/100.00;
+  }
+}
